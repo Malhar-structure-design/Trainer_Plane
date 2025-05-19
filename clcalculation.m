@@ -1,6 +1,6 @@
 function compute_CL_takeoff()
     % INPUT PARAMETERS
-    mass = 3;                         % kg
+    mass = 2.8;                         % kg
     thrust = 30;                      % N (from APC datasheet)
     rho = 1.225;                      % kg/m^3 (air density at sea level)
     s = input('Enter lifting surface area in m^2: ');  % e.g. 0.5 m^2
